@@ -7,18 +7,23 @@ import docx
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
 from docx.shared import Cm, Pt
 
-sys.path.insert(0, "..")
+sys.path.insert(0, "../tools")
 from docx_kit import (baca_berkas, bersihkan, bullet, caption, gambar, h1, h2,
                       header_dokumen, kode, nomor_halaman, par, sampul, tabel)
 
-TEMPLATE = "../Template Laporan Tugas Individu.docx"
+TEMPLATE = "../template/Template Laporan Tugas Individu.docx"
 OUT = "results/Laporan_K-2_Penjadwalan_Kebun.docx"
 NAMA = "Dendy Zainal Mutaqien"
 NIM = "250660121068"
 KELAS = "IF-3C"
 KODE = "K-2"
 ANGGOTA = [
-    ("Dendy Zainal Mutaqien", NIM, "Simulator, perhitungan manual, dan penyusunan laporan"),
+    ("Dendy Zainal Mutaqien", NIM,
+     "Simulator penjadwalan, perhitungan manual, dan penyusunan laporan"),
+    ("R.Sangga Buana", "250660121021",
+     "Membuat Gantt chart keenam algoritma dan memeriksa angka Tabel 5.1"),
+    ("M.Azkal Azkiya", "250660121107",
+     "Memeriksa hitungan manual tiap algoritma dan format Daftar Pustaka"),
 ]
 
 
@@ -38,7 +43,8 @@ def sampul_k2(d):
             ("Kelas / tema", f"{KELAS} — IoT dan Smart Farming"),
             ("Nama", NAMA),
             ("NIM", NIM),
-            ("Anggota kelompok", "1 orang (rincian di Lampiran D)"),
+            ("Anggota kelompok", "3 orang — Dendy Zainal Mutaqien, R.Sangga Buana, "
+                                 "M.Azkal Azkiya (rincian di Lampiran D)"),
             ("Nama host", "INFINIX-ElementaryOS"),
             ("Minggu / tanggal kumpul", "Minggu ke-5 / 5 November 2026"),
             ("Kepingan puzzle", "Kepingan #5 → Level 3 Puzzle UTS"),
@@ -273,7 +279,8 @@ def kepingan(d):
         ("Nomor kepingan", "#5"),
         ("Isi kepingan", "Simulator penjadwalan, Gantt chart keenam algoritma, tabel "
                          "perbandingan metrik, dan rekomendasi algoritma"),
-        ("Lokasi di portofolio", "[tautan repositori K-2]"),
+        ("Lokasi di portofolio",
+         "https://github.com/ZzDendy/so-k2-penjadwalan"),
         ("Dipakai untuk", "Level 3 Puzzle UTS — menyambung kepingan #4 (IPC) karena proses "
                           "sensor pada K-1 dipetakan menjadi task penjadwalan di sini, dan "
                           "menjadi dasar kepingan #6 (race condition) pada tugas individu I-4"),

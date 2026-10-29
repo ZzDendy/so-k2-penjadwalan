@@ -29,9 +29,9 @@ Keenam konfigurasi cocok dengan perhitungan manual (dua desimal), diverifikasi l
 ```bash
 python3 sched.py --verifikasi        # hitung + cocokkan dengan manual
 python3 sched.py                     # tulis results/jadwal.json
-../ipc-kebun/.venv/bin/python figures.py    # Gantt chart + grafik metrik
-../ipc-kebun/.venv/bin/python report.py     # rakit laporan docx
-../ipc-kebun/.venv/bin/python ../toc.py \
+../.venv/bin/python figures.py       # Gantt chart + grafik metrik
+../.venv/bin/python report.py        # rakit laporan docx
+../.venv/bin/python ../tools/toc.py \
   "results/IF-3C_K-2_250660121068_Dendy Zainal Mutaqien.docx" \
   "results/IF-3C_K-2_250660121068_Dendy Zainal Mutaqien.pdf"
 ```
