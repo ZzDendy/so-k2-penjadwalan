@@ -1,0 +1,568 @@
+{
+  "FCFS": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        3
+      ],
+      [
+        "P2",
+        3,
+        9
+      ],
+      [
+        "P3",
+        9,
+        13
+      ],
+      [
+        "P4",
+        13,
+        21
+      ],
+      [
+        "P5",
+        21,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 3,
+        "waiting": 0,
+        "turnaround": 3,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 3,
+        "selesai": 9,
+        "waiting": 3,
+        "turnaround": 9,
+        "response": 3
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 9,
+        "selesai": 13,
+        "waiting": 7,
+        "turnaround": 11,
+        "response": 7
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 13,
+        "selesai": 21,
+        "waiting": 10,
+        "turnaround": 18,
+        "response": 10
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 21,
+        "selesai": 23,
+        "waiting": 17,
+        "turnaround": 19,
+        "response": 17
+      }
+    },
+    "rata": {
+      "waiting": 7.4,
+      "turnaround": 12.0,
+      "response": 7.4
+    }
+  },
+  "SJF": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        3
+      ],
+      [
+        "P3",
+        3,
+        7
+      ],
+      [
+        "P5",
+        7,
+        9
+      ],
+      [
+        "P2",
+        9,
+        15
+      ],
+      [
+        "P4",
+        15,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 3,
+        "waiting": 0,
+        "turnaround": 3,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 9,
+        "selesai": 15,
+        "waiting": 9,
+        "turnaround": 15,
+        "response": 9
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 3,
+        "selesai": 7,
+        "waiting": 1,
+        "turnaround": 5,
+        "response": 1
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 15,
+        "selesai": 23,
+        "waiting": 12,
+        "turnaround": 20,
+        "response": 12
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 7,
+        "selesai": 9,
+        "waiting": 3,
+        "turnaround": 5,
+        "response": 3
+      }
+    },
+    "rata": {
+      "waiting": 5.0,
+      "turnaround": 9.6,
+      "response": 5.0
+    }
+  },
+  "SRTF": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        3
+      ],
+      [
+        "P3",
+        3,
+        4
+      ],
+      [
+        "P5",
+        4,
+        6
+      ],
+      [
+        "P3",
+        6,
+        9
+      ],
+      [
+        "P2",
+        9,
+        15
+      ],
+      [
+        "P4",
+        15,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 3,
+        "waiting": 0,
+        "turnaround": 3,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 9,
+        "selesai": 15,
+        "waiting": 9,
+        "turnaround": 15,
+        "response": 9
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 3,
+        "selesai": 9,
+        "waiting": 3,
+        "turnaround": 7,
+        "response": 1
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 15,
+        "selesai": 23,
+        "waiting": 12,
+        "turnaround": 20,
+        "response": 12
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 4,
+        "selesai": 6,
+        "waiting": 0,
+        "turnaround": 2,
+        "response": 0
+      }
+    },
+    "rata": {
+      "waiting": 4.8,
+      "turnaround": 9.4,
+      "response": 4.4
+    }
+  },
+  "Priority": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        3
+      ],
+      [
+        "P3",
+        3,
+        7
+      ],
+      [
+        "P5",
+        7,
+        9
+      ],
+      [
+        "P2",
+        9,
+        15
+      ],
+      [
+        "P4",
+        15,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 3,
+        "waiting": 0,
+        "turnaround": 3,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 9,
+        "selesai": 15,
+        "waiting": 9,
+        "turnaround": 15,
+        "response": 9
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 3,
+        "selesai": 7,
+        "waiting": 1,
+        "turnaround": 5,
+        "response": 1
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 15,
+        "selesai": 23,
+        "waiting": 12,
+        "turnaround": 20,
+        "response": 12
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 7,
+        "selesai": 9,
+        "waiting": 3,
+        "turnaround": 5,
+        "response": 3
+      }
+    },
+    "rata": {
+      "waiting": 5.0,
+      "turnaround": 9.6,
+      "response": 5.0
+    }
+  },
+  "RR q=2": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        2
+      ],
+      [
+        "P2",
+        2,
+        4
+      ],
+      [
+        "P3",
+        4,
+        6
+      ],
+      [
+        "P1",
+        6,
+        7
+      ],
+      [
+        "P4",
+        7,
+        9
+      ],
+      [
+        "P5",
+        9,
+        11
+      ],
+      [
+        "P2",
+        11,
+        13
+      ],
+      [
+        "P3",
+        13,
+        15
+      ],
+      [
+        "P4",
+        15,
+        17
+      ],
+      [
+        "P2",
+        17,
+        19
+      ],
+      [
+        "P4",
+        19,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 7,
+        "waiting": 4,
+        "turnaround": 7,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 2,
+        "selesai": 19,
+        "waiting": 13,
+        "turnaround": 19,
+        "response": 2
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 4,
+        "selesai": 15,
+        "waiting": 9,
+        "turnaround": 13,
+        "response": 2
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 7,
+        "selesai": 23,
+        "waiting": 12,
+        "turnaround": 20,
+        "response": 4
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 9,
+        "selesai": 11,
+        "waiting": 5,
+        "turnaround": 7,
+        "response": 5
+      }
+    },
+    "rata": {
+      "waiting": 8.6,
+      "turnaround": 13.2,
+      "response": 2.6
+    }
+  },
+  "RR q=3": {
+    "segmen": [
+      [
+        "P1",
+        0,
+        3
+      ],
+      [
+        "P2",
+        3,
+        6
+      ],
+      [
+        "P3",
+        6,
+        9
+      ],
+      [
+        "P4",
+        9,
+        12
+      ],
+      [
+        "P5",
+        12,
+        14
+      ],
+      [
+        "P2",
+        14,
+        17
+      ],
+      [
+        "P3",
+        17,
+        18
+      ],
+      [
+        "P4",
+        18,
+        23
+      ]
+    ],
+    "metrik": {
+      "P1": {
+        "arrival": 0,
+        "burst": 3,
+        "prio": 1,
+        "mulai": 0,
+        "selesai": 3,
+        "waiting": 0,
+        "turnaround": 3,
+        "response": 0
+      },
+      "P2": {
+        "arrival": 0,
+        "burst": 6,
+        "prio": 3,
+        "mulai": 3,
+        "selesai": 17,
+        "waiting": 11,
+        "turnaround": 17,
+        "response": 3
+      },
+      "P3": {
+        "arrival": 2,
+        "burst": 4,
+        "prio": 2,
+        "mulai": 6,
+        "selesai": 18,
+        "waiting": 12,
+        "turnaround": 16,
+        "response": 4
+      },
+      "P4": {
+        "arrival": 3,
+        "burst": 8,
+        "prio": 4,
+        "mulai": 9,
+        "selesai": 23,
+        "waiting": 12,
+        "turnaround": 20,
+        "response": 6
+      },
+      "P5": {
+        "arrival": 4,
+        "burst": 2,
+        "prio": 1,
+        "mulai": 12,
+        "selesai": 14,
+        "waiting": 8,
+        "turnaround": 10,
+        "response": 8
+      }
+    },
+    "rata": {
+      "waiting": 8.6,
+      "turnaround": 13.2,
+      "response": 4.2
+    }
+  }
+}
